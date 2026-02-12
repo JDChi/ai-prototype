@@ -28,3 +28,19 @@ git add <file> && git commit -m "message" && git push origin main
 - Configure custom colors in Tailwind config for brand consistency
 - Keep custom CSS minimal (mainly animations)
 - Mobile-first responsive design (max-width: 414px for mobile frame)
+
+## Project Structure
+
+Each project lives in its own folder under `projects/`:
+```
+projects/
+├── example/              # Example/prototyping project
+│   └── *.html
+├── xxx-project/          # New project folder
+│   └── *.html
+└── yyy-project/          # Another project folder
+    └── *.html
+```
+
+- Create a new folder for each project
+- Keep projects isolated and organized

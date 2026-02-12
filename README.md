@@ -18,7 +18,11 @@ projects/
 
 ```
 
-## 开发方式
+## 项目规范
+
+- 每个项目在 `projects/` 下单独建文件夹管理
+- 示例：`projects/example/`、`projects/xxx-project/`
+- 保持项目结构清晰，互不干扰
 
 通过 Claude Code CLI 与 AI 模型对话，实现：
 - 代码生成和修改
